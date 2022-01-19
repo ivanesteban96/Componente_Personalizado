@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Componente_Personalizado.MisControles.MiComponente1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Componente_Personalizado.MisControles"
+             mc:Ignorable="d" Height="136" Width="196">
+    <Grid>
+        <Button Content="{Binding contenidoBoton}" Width="100" Height="36" x:Name="miBoton" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="cajaTexto" HorizontalAlignment="Center" Margin="0,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" LostFocus="PerderFoco"/>
+        <Label x:Name="mensaje" Content="" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</UserControl>
